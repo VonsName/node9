@@ -7,5 +7,8 @@ let studentSchema=new mongoose.Schema(
         sex:String
     }
 );
+studentSchema.methods.showInfo=function () {
+    console.log(this.username);
+};
 let StudentModel=dbs.model('Student',studentSchema);
 module.exports=StudentModel;
