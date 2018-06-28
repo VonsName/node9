@@ -2,7 +2,7 @@ const mongoose=require('mongoose');
 const express=require('express');
 const app=express();
 
-mongoose.connect('mongodb://192.168.99.100:10001/node');
+mongoose.connect('mongodb://147.106.13.245:27017/node');
 // let Schema=mongoose.Schema;
 // let mySchema = new Schema({
 //     title:  String,
